@@ -24,22 +24,22 @@
             android:layout_height="wrap_content"
             android:hint="Enter image url" />
 
-        <!--<ImageView-->
-            <!--android:id="@+id/imageViewer"-->
-            <!--android:layout_below="@+id/textViewAddressBar"-->
-            <!--android:scaleType="fitStart"-->
-            <!--android:adjustViewBounds="true"-->
-            <!--android:layout_width="fill_parent"-->
-            <!--android:layout_height="wrap_content" />-->
-
-        <GridView
-            android:id="@+id/gridView"
+        <ImageView
+            android:id="@+id/imageViewer"
             android:layout_below="@+id/textViewAddressBar"
-            android:columnWidth="90dp"
-            android:numColumns="auto_fit"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <!--<GridView-->
+            <!--android:id="@+id/gridView"-->
+            <!--android:layout_below="@+id/textViewAddressBar"-->
+            <!--android:columnWidth="90dp"-->
+            <!--android:numColumns="auto_fit"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
 
         <Button
             android:id="@+id/btnRefresh"
